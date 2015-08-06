@@ -6,37 +6,39 @@
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<div id="top_navigation">
-		<ul>
-			<li><a id="sign_in" href="#">Sign In</a></li>
-			<li><a id="apps_icon" href="#apps"></a></li>
-			<li><a href="#images">Images</a></li>
-			<li><a href="#gmail">Gmail</a></li>
-		</ul>
-	</div>
-	<div id="search_fields">
-		<div id="search_container">
-			<img id="logo" src="https://www.google.com/images/srpr/logo11w.png" alt="google logo" height="90" width="250">
-			<form action="/search" method="GET">
-				<input id="search" type="text" name="search">
-				<div id ="submit">
-					<input type="submit" value="Google Search">
-					<input type="submit" value="I'm Feeling Lucky">
-				</div>	
-			</form>
+	<div id="container">
+		<div id="top_navigation">
+			<ul>
+				<li class="right"><a id="sign_in" href="#">Sign In</a></li>
+				<li class="right"><a id="apps_icon" href="#apps"></a></li>
+				<li class="right"><a href="#images">Images</a></li>
+				<li class="right"><a href="#gmail">Gmail</a></li>
+			</ul>
 		</div>
+		<div id="search_fields">
+			<div id="search_container">
+				<img id="logo" src="https://www.google.com/images/srpr/logo11w.png" alt="google logo" height="90" width="250">
+				<form action="/search" method="GET">
+					<input id="search" type="text" name="search">
+					<div id ="submit">
+						<input type="submit" value="Google Search">
+						<input type="submit" value="I'm Feeling Lucky">
+					</div>	
+				</form>
+			</div>
+		</div>
+		<div id="bottom_navigation">
+		    <ul>
+			    <li class="left"><a href="#advertising">Advertising</a></li>
+				<li class="left"><a href="#business">Business</a></li>
+				<li class="left"><a href="#about">About</a></li>
+		    </ul>
+		    <ul>
+			    <li class="right"><a href="#settings">Settings</a></li>
+			    <li class="right"><a href="#terms">Terms</a></li>
+			    <li class="right"><a href="#privacy">Privacy</a></li>
+		    </ul>
+	    </div>
 	</div>
-	<div id="bottom_navigation">
-	    <ul id="bottom_left_navigation">
-		    <li><a href="#advertising">Advertising</a></li>
-			<li><a href="#business">Business</a></li>
-			<li><a href="#about">About</a></li>
-	    </ul>
-	    <ul id="bottom_right_navigation">
-		    <li><a href="#privacy">Privacy</a></li>
-		    <li><a href="#terms">Terms</a></li>
-		    <li><a href="#settings">Settings</a></li>
-	    </ul>
-    </div>
 </body>
 </html>

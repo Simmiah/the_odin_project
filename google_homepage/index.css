@@ -1,24 +1,31 @@
 /* Page Style */
 body {
 	font-family: "Arial", Arial;
+	font-size: small;
+}
+
+#container {
+	position: relative;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* Navigation Bar */
 #top_navigation {
 	width: 100%;
 	height: 30px;
-	float: right;
-	font-size: small;
-}
-
-#top_navigation ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-#top_navigation li {
-	float: right;
 }
 
 #top_navigation a {
@@ -92,47 +99,18 @@ input[type=submit]:hover {
 
 /* Bottom Navigation */
 #bottom_navigation {
-	width: 100%;
 	height: 30px;
-	font-size: small;
+	width: 100%;
 }
-
-#bottom_left_navigation {
-}
-
-#bottom_left_navigation ul {
+/*
+#bottom_navigation li {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
+}*/
 
-#bottom_left_navigation li {
-	float: left;
-}
-
-#bottom_left_navigation a {
+#bottom_navigation a {
+	display: inline-block;
 	width: 60px;
-	padding: 15px 15px;
-}
-
-
-
-
-#bottom_right_navigation {
-
-}
-
-#bottom_right_navigation ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-#bottom_right_navigation li {
-	float: right;
-}
-
-#bottom_right_navigation a {
-	width: 60px;
-	padding: 15px 15px;
+	padding: 15px 13px;
 }
