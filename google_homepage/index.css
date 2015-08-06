@@ -102,15 +102,9 @@ input[type=submit]:hover {
 	height: 30px;
 	width: 100%;
 }
-/*
-#bottom_navigation li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}*/
 
 #bottom_navigation a {
-	display: inline-block;
+	display: inline;
 	width: 60px;
 	padding: 15px 13px;
 }
