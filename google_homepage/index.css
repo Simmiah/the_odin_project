@@ -1,13 +1,4 @@
 /* Page Style */
-body {
-	font-family: "Arial", Arial;
-	font-size: small;
-}
-
-#container {
-	position: relative;
-}
-
 .left {
 	float: left;
 }
@@ -16,10 +7,25 @@ body {
 	float: right;
 }
 
+body {
+	font-family: "Arial", Arial;
+	font-size: small;
+	opacity: 0.75;
+}
+
+#container {
+	position: relative;
+	height: 100%;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+
+a {
+
 }
 
 /* Navigation Bar */
@@ -98,12 +104,18 @@ input[type=submit]:hover {
 
 /* Bottom Navigation */
 #bottom_navigation {
-	height: 30px;
+	height: 5%;
 	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
 }
 
 #bottom_navigation a {
-	display: inline;
+	display: block;
 	width: 60px;
 	padding: 15px 13px;
 }
