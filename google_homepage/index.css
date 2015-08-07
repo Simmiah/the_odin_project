@@ -24,8 +24,8 @@ ul {
 	padding: 0;
 }
 
-a {
-
+a:hover {
+	text-decoration: underline;
 }
 
 /* Navigation Bar */
