@@ -1,14 +1,30 @@
-var factors = [];
-var remainder = 13195;
+var primeFactors = [];
+var divideMe = 13195;
+var remainder = 0;
 
-var divisible = function (z) {
-	
+var isPrime = function (k) {
+	for (j = 0; j < 10; j++) {
+        if (k % j != 0) {
+            return true;
+        }
+    }   
 }
 
-for (i = 2; i <= 13195; i++) {
-	if (remainder % i === 0) {
-		for (j = 0; j < 10; j++) {
+var isDivisible = function (l,m) {
+    if (l % m === 0) {
+        return true;
+    }
+}
 
-		}
-	}
+for (i = 0; i <= divideMe; i++) {
+    if (isDivisible(divideMe, i)) {
+        if (isPrime(i)) {
+            primeFactors.push(i);
+            remainder = divideMe/i;
+        }
+        divideMe = remainder;
+    }
+}
+
+console.log(primeFactors);
 }
