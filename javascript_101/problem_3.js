@@ -1,8 +1,8 @@
 var primeFactors = [];
-var divideMe = 600851475143;
-var divideMe1 = 600851475143;
-var remainder = 0;
 var largest = 0;
+
+var divideMe = prompt("Input a number you want to find the largest prime factor for");
+var divideMe1 = divideMe;
 
 var isPrime = function (k) {
     for (j = 0; j < 10; j++) {
@@ -13,12 +13,9 @@ var isPrime = function (k) {
 }
 
 for (i = 0; i <= divideMe; i++) {
-    if (divideMe % i === true {
-        if (isPrime(i)) {
-            primeFactors.push(i);
-            remainder = divideMe/i;
-        }
-        divideMe = remainder;
+    if ((divideMe % i === 0) && (isPrime(i))) {
+        primeFactors.push(i);
+        divideMe = divideMe/i;
     }
 }
 
