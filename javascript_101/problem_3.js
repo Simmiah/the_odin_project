@@ -12,14 +12,8 @@ var isPrime = function (k) {
     }   
 }
 
-var isDivisible = function (l,m) {
-    if (l % m === 0) {
-        return true;
-    }
-}
-
 for (i = 0; i <= divideMe; i++) {
-    if (isDivisible(divideMe, i)) {
+    if (divideMe % i === true {
         if (isPrime(i)) {
             primeFactors.push(i);
             remainder = divideMe/i;
