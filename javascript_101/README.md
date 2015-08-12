@@ -1,0 +1,1 @@
+Solving Project Euler problems 1 through 3
