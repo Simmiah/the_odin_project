@@ -1,0 +1,13 @@
+.square {
+	border: 3px solid black;
+	height: 80px;
+	width: 80px;
+}
+
+.clear {
+	clear: top;
+}
+
+.right {
+	float: right;
+}
