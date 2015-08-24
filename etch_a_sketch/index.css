@@ -1,3 +1,16 @@
+body {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+}
+
+#container {
+    display: inline-block;
+}
+
 .square {
 	outline: 1px solid black;
 	height: 40px;
