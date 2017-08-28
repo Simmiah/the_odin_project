@@ -1,0 +1,13 @@
+body {
+  background-color: #333;
+}
+
+.jumbotron {
+  background-color: #222;
+  color: #999;
+}
+
+.btn {
+  background-color: #222;
+  color: #999;
+}
