@@ -1,7 +1,7 @@
 var grid = 10;
 
 $(document).ready(function(){
-	makeGrid(grid);
+  makeGrid(grid);
   $('.square').hover(function(){
     $(this).addClass('black');
   });
@@ -13,20 +13,20 @@ $(document).ready(function(){
     $('.square').hover(function(){
       $(this).addClass('black');
     });
-	});
+  });
 });
 
 function makeGrid(grid){
-	if (isNaN(grid) || grid < 1 || grid > 40) {
-		var grid = 10;
-	}
+  if (isNaN(grid) || grid < 1 || grid > 40) {
+    var grid = 10;
+  }
   for (y=0; y<grid; y++) {
-		for (x=0; x<=grid; x++) {
+    for (x=0; x<=grid; x++) {
       if (x != grid) {
         $('#container').append('<div class="square right"></div>');
       } else {
         $('#container').append('<div class="clear"></div>');
       }
     }
-	}
+  }
 }
