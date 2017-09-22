@@ -1,30 +1,35 @@
 body {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 button {
-    display: inline-block;
+  display: inline-block;
+}
+
+#header {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #container {
-    display: inline-block;
+  display: inline-block;
 }
 
 .square {
-	outline: 1px solid black;
-	height: 40px;
-	width: 40px;
+  outline: 1px solid black;
+  height: 40px;
+  width: 40px;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .clear {
-    clear: right;
+  clear: right;
 }
 
 .black {
-    background-color: black;
+  background-color: black;
 }
