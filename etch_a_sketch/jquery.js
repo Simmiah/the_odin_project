@@ -1,4 +1,4 @@
-var grid = 5;
+var grid = 10;
 
 $(document).ready(function(){
 	makeGrid(grid);
@@ -17,6 +17,9 @@ $(document).ready(function(){
 });
 
 function makeGrid(grid){
+	if (isNaN(grid) || grid < 1 || grid > 40) {
+		var grid = 10;
+	}
   for (y=0; y<grid; y++) {
 		for (x=0; x<=grid; x++) {
       if (x != grid) {
