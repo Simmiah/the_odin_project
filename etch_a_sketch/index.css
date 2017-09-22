@@ -4,7 +4,7 @@ body {
 }
 
 button {
-    display: inline-block;
+  display: inline-block;
 }
 
 #header {
@@ -13,7 +13,7 @@ button {
 }
 
 #container {
-    display: inline-block;
+  display: inline-block;
 }
 
 .square {
@@ -23,13 +23,13 @@ button {
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .clear {
-    clear: right;
+  clear: right;
 }
 
 .black {
-    background-color: black;
+  background-color: black;
 }
