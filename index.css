@@ -31,6 +31,10 @@ body {
   padding: 10% 0 10% 0;
 }
 
+#home a {
+  color: #000000;
+}
+
 #portfolio h2 {
   padding: 20px 0;
 }
