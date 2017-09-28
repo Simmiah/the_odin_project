@@ -3,7 +3,6 @@ body {
 }
 
 .navbar {
-  height: 70px;
   background-color: transparent;
   border: none;
   font-size: 1.10em;
@@ -15,12 +14,11 @@ body {
 }
 
 .navbar.solid .navbar-brand {
-  display: inline-block;
+  display: inline;
 }
 
 .navbar-brand {
   display: none;
-  margin-top: 10px;
 }
 
 .navbar-nav > li > a {
