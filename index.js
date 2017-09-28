@@ -453,10 +453,10 @@ function handleTyping() {
 
 function navSolid() {
   $(window).scroll(function() {
-    if($(this).scrollTop() > 250) {
-      $('.navbar').addClass('solid');
+    if($(this).scrollTop() > 100) {
+      $(".navbar").addClass("solid");
     } else {
-      $('.navbar').removeClass('solid');
+      $(".navbar").removeClass("solid");
     }
   });
 }
